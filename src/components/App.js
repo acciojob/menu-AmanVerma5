@@ -5,7 +5,7 @@ const App=()=>{
     let [selectedCategory,setSelectedCategory]=useState('All');
 
     return(
-        <div className="main">
+        <div id="main">
             <h1>Our Menu</h1>
             <div className="categories">
                 <button onClick={()=>setSelectedCategory('All')}>All</button>
