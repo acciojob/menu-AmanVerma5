@@ -10,3 +10,17 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.categories{
+    justify-content: center ;
+    display: flex;
+}
+.categories p{
+    padding:7px;
+}
+body{
+    background-color: beige;
+}
+.item-container{
+    width:40%;
+}
